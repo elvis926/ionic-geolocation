@@ -1,26 +1,23 @@
 # ionic-geolocation
 
-Importante agregar sus credenciales proporcionadas por Firebase en los siguientes archivos 
+Para que el proyecto funcione correctamente se debera poner las credenciales en los siguientes archivos en el archivo enviroment.ts iran las credenciales de su cuenta firebase y el index.html se utilizara la API KEY de Google Plataform. 
 
 	src/enviroments/enviroment.ts
 	src/index.html 
 	
-Al iniciar el proyecto podra visualizar las siguientes pantallas: 
+Al inicio podra visualizar las siguientes pantallas: 
+La primera imagen muestra el mapa con la ubicacion del dispositivo donde se puede darle un nombre y al precionar en enviar se guardara en Firebase
+![imagen](https://user-images.githubusercontent.com/55716749/126525322-60512f5e-9116-4331-9a1f-5962ebccd7dc.png)
 
-![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-geolocation/master/images/lsitado.png)
+El otro apartado de la aplicacion mostrara todos las ubicaciones guardadas en Firebase con la opcion de poder eliminar cualquier ubicacion
+![imagen](https://user-images.githubusercontent.com/55716749/126525783-ca19b53b-7751-4fa4-95a6-7b590e51132f.png)
 
-![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-geolocation/master/images/mapa.png)
+La siguiente imagen es la constancia de como se guarda los datos de manera correcta en Firebase
+![imagen](https://user-images.githubusercontent.com/55716749/126525130-a02faa96-1eed-4aec-910a-116ff99b69de.png)
 
-Luego en la pantalla con el mapa, con el boton informativo puede obtener la coordenadas de su ubicación. 
+Taller realizado por:
+Agila Elvis 
+Diaz Yomara
 
-![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-geolocation/master/images/ubicaciòn.png)
-
-Llene el campo con su nombre para registrarlo en la base de datos con la ubicaciòn que ha sido mostrada. 
-
-![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-geolocation/master/images/ingresar.png)
-
-Al presionar guardar este cambia a la pantalla de listado donde esta la nueva ubicaciòn registrada. 
-
-![alt text](https://raw.githubusercontent.com/CarlosMaldonado1998/ionic-geolocation/master/images/registrado.png)
 
 	
