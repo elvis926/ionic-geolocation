@@ -1,0 +1,26 @@
+
+
+<ion-content>
+  <div >
+    <ion-list >
+      <div class="ion-text-center">
+        <ion-label> Tarjetas </ion-label>
+      </div>
+      <ion-item *ngFor="let task of Tasks" >
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>{{task.name}}</ion-card-subtitle>
+            <ion-card-title>Latitud: {{task.latitud}}</ion-card-title>
+            <ion-card-title>Longitud: {{task.longitud}}</ion-card-title>
+          </ion-card-header>
+          <div class="ion-text-center">>
+            <ion-button clear (click)="remove(task.id)">
+              <ion-icon name="trash"></ion-icon> Eliminar
+            </ion-button>
+          </div>
+        </ion-card>
+      </ion-item>
+    </ion-list>
+  </div>
+
+</ion-content>
